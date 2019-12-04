@@ -34,6 +34,7 @@ SearchTextField supports two different modes: the classic dropdown list (by defa
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_versions = '4.0'
 
   s.user_target_xcconfig = { 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => '$(inherited)' }
 
