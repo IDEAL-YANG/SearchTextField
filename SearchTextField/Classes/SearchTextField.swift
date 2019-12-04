@@ -133,6 +133,12 @@ open class SearchTextField: UITextField {
     open var tableCornerRadius: CGFloat = 2.0
     open var tableBottomMargin: CGFloat = 10.0
     
+    /// If prefixUserInput is true, user input as suggestions title prefix
+    open var prefixUserInput = false
+    
+    /// If prefixStopJoin is set, user input contain this string will stop as suggestions title prefix
+    open var prefixStopJoin:String?
+    
     ////////////////////////////////////////////////////////////////////////
     // Private implementation
     
@@ -413,7 +419,11 @@ open class SearchTextField: UITextField {
                     
                     self.text = stringElements!.first! + filterAfter + firstElement.title
                 } else {
-                    self.text = firstElement.title
+                    if let stop = prefixStopJoin, text!.contains(stop) {
+                        // no use first element
+                    }else {
+                        self.text = joinUserInputAsPrefix(with: firstElement.title)
+                    }
                 }
             }
         }
@@ -446,7 +456,7 @@ open class SearchTextField: UITextField {
                 let subtitleFilterRange = item.subtitle != nil ? (item.subtitle! as NSString).range(of: text!, options: comparisonOptions) : NSMakeRange(NSNotFound, 0)
                 
                 if titleFilterRange.location != NSNotFound || subtitleFilterRange.location != NSNotFound || addAll {
-                    item.attributedTitle = NSMutableAttributedString(string: item.title)
+                    item.attributedTitle = NSMutableAttributedString(string: joinUserInputAsPrefix(with: item.title))
                     item.attributedSubtitle = NSMutableAttributedString(string: (item.subtitle != nil ? item.subtitle! : ""))
                     
                     item.attributedTitle!.setAttributes(highlightAttributes, range: titleFilterRange)
@@ -547,6 +557,19 @@ open class SearchTextField: UITextField {
             }
         }
     }
+    
+    // MARK: - Use user input as prefix
+    fileprivate func joinUserInputAsPrefix(with title:String) -> String {
+        var allTitle = title
+        if prefixUserInput {
+            if let stop = prefixStopJoin, text!.contains(stop) {
+                allTitle = text!.components(separatedBy: stop).first! + allTitle
+            }else {
+                allTitle = text! + allTitle
+            }
+        }
+        return allTitle
+    }
 }
 
 extension SearchTextField: UITableViewDelegate, UITableViewDataSource {
@@ -594,7 +617,7 @@ extension SearchTextField: UITableViewDelegate, UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if itemSelectionHandler == nil {
-            self.text = filteredResults[(indexPath as NSIndexPath).row].title
+            self.text = joinUserInputAsPrefix(with: filteredResults[(indexPath as NSIndexPath).row].title)
         } else {
             let index = indexPath.row
             itemSelectionHandler!(filteredResults, index)

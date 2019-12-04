@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lGh-8H-ch5">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lGh-8H-ch5">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,23 +16,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection id="fDS-7C-7nc">
+                            <tableViewSection headerTitle="Section-1" id="fDS-7C-7nc">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="TkA-Yn-zzy">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TkA-Yn-zzy" id="8Xs-Us-0mE">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWc-6M-gDK">
-                                                    <rect key="frame" x="8" y="19.5" width="108" height="21"/>
+                                                    <rect key="frame" x="16" y="19.5" width="108" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PIy-ap-WHN" customClass="SearchTextField" customModule="SearchTextField">
-                                                    <rect key="frame" x="146" y="21.5" width="221" height="17"/>
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="TPt-u7-yPs"/>
                                                     </constraints>
@@ -52,20 +50,20 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="eeb-Wb-JBk">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="88" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eeb-Wb-JBk" id="Um7-EY-elp">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achronym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sY-h7-q1T">
-                                                    <rect key="frame" x="8" y="19.5" width="77.5" height="21"/>
+                                                    <rect key="frame" x="16" y="19.5" width="77.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter an achronym, ie: BMI" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l1N-ud-tul" customClass="SearchTextField" customModule="SearchTextField">
-                                                    <rect key="frame" x="145.5" y="21.5" width="221" height="17"/>
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="jRe-nS-LSo"/>
                                                     </constraints>
@@ -83,20 +81,20 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="L1D-PG-cUt">
-                                        <rect key="frame" x="0.0" y="120" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="148" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L1D-PG-cUt" id="SwM-3f-YAa">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inline Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ek-sc-XAV">
-                                                    <rect key="frame" x="8" y="19.5" width="106" height="21"/>
+                                                    <rect key="frame" x="16" y="19.5" width="106" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FNs-6t-pNV" customClass="SearchTextField" customModule="SearchTextField">
-                                                    <rect key="frame" x="145.5" y="21.5" width="221" height="17"/>
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="RUp-Po-cFs"/>
                                                     </constraints>
@@ -114,20 +112,20 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="4WE-Ab-Ecg">
-                                        <rect key="frame" x="0.0" y="180" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="208" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4WE-Ab-Ecg" id="ie1-b4-tDi">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTb-gY-vhb">
-                                                    <rect key="frame" x="8" y="19.5" width="41" height="21"/>
+                                                    <rect key="frame" x="16" y="19.5" width="41" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="upj-uJ-A0z" customClass="SearchTextField" customModule="SearchTextField">
-                                                    <rect key="frame" x="145.5" y="21.5" width="221" height="17"/>
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="z3U-eo-drz"/>
                                                     </constraints>
@@ -141,6 +139,355 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="upj-uJ-A0z" secondAttribute="trailing" id="KTI-vx-83M"/>
                                                 <constraint firstItem="upj-uJ-A0z" firstAttribute="centerY" secondItem="ie1-b4-tDi" secondAttribute="centerY" id="Kn8-fg-axU"/>
                                                 <constraint firstItem="upj-uJ-A0z" firstAttribute="leading" secondItem="yTb-gY-vhb" secondAttribute="trailing" priority="250" constant="50" id="lnm-Vw-GKe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="sut-et-c2n">
+                                        <rect key="frame" x="0.0" y="268" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sut-et-c2n" id="viC-rn-p2k">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email(Sugg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zem-85-jov">
+                                                    <rect key="frame" x="16" y="19.5" width="93" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iYB-cE-fcE" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="NLh-bR-iCo"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="iYB-cE-fcE" firstAttribute="leading" secondItem="zem-85-jov" secondAttribute="trailing" priority="250" constant="50" id="58B-gN-NnH"/>
+                                                <constraint firstItem="zem-85-jov" firstAttribute="centerY" secondItem="viC-rn-p2k" secondAttribute="centerY" id="LGD-P0-9EH"/>
+                                                <constraint firstItem="iYB-cE-fcE" firstAttribute="centerY" secondItem="viC-rn-p2k" secondAttribute="centerY" id="Tp3-0Q-jhV"/>
+                                                <constraint firstItem="zem-85-jov" firstAttribute="leading" secondItem="viC-rn-p2k" secondAttribute="leadingMargin" id="XlV-cA-JE0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="iYB-cE-fcE" secondAttribute="trailing" id="lkb-Wx-pxo"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Section-2" id="Y0m-18-WPL">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="U66-y2-Nzz">
+                                        <rect key="frame" x="0.0" y="384" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U66-y2-Nzz" id="cI0-dT-pnA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5R7-wx-ySg">
+                                                    <rect key="frame" x="16" y="19.5" width="108" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7OE-uw-Uje" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="ZKT-rJ-QBt"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7OE-uw-Uje" firstAttribute="leading" secondItem="5R7-wx-ySg" secondAttribute="trailing" priority="250" constant="30" id="6lb-sZ-9ic"/>
+                                                <constraint firstItem="7OE-uw-Uje" firstAttribute="centerY" secondItem="cI0-dT-pnA" secondAttribute="centerY" id="7Tg-L8-W0N"/>
+                                                <constraint firstItem="5R7-wx-ySg" firstAttribute="leading" secondItem="cI0-dT-pnA" secondAttribute="leadingMargin" id="Sgb-xh-DAT"/>
+                                                <constraint firstItem="7OE-uw-Uje" firstAttribute="trailing" secondItem="cI0-dT-pnA" secondAttribute="trailingMargin" id="qjh-0V-2Bl"/>
+                                                <constraint firstItem="5R7-wx-ySg" firstAttribute="centerY" secondItem="cI0-dT-pnA" secondAttribute="centerY" id="u5W-Ij-rT1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="aoS-IC-kba">
+                                        <rect key="frame" x="0.0" y="444" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aoS-IC-kba" id="Gx4-dL-8oP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achronym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2D-fh-1Kt">
+                                                    <rect key="frame" x="16" y="19.5" width="77.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter an achronym, ie: BMI" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaW-0A-65s" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="qXz-6F-IfK"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="y2D-fh-1Kt" firstAttribute="centerY" secondItem="Gx4-dL-8oP" secondAttribute="centerY" id="6nq-9b-iEs"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="NaW-0A-65s" secondAttribute="trailing" id="77b-Jq-DH5"/>
+                                                <constraint firstItem="NaW-0A-65s" firstAttribute="leading" secondItem="y2D-fh-1Kt" secondAttribute="trailing" priority="250" constant="50" id="Eq1-ta-8hJ"/>
+                                                <constraint firstItem="y2D-fh-1Kt" firstAttribute="leading" secondItem="Gx4-dL-8oP" secondAttribute="leadingMargin" id="arU-b0-6KM"/>
+                                                <constraint firstItem="NaW-0A-65s" firstAttribute="centerY" secondItem="Gx4-dL-8oP" secondAttribute="centerY" id="vdq-pO-LMe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="yJy-Bk-gSr">
+                                        <rect key="frame" x="0.0" y="504" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yJy-Bk-gSr" id="cQK-1N-Sw0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inline Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYI-IK-wfY">
+                                                    <rect key="frame" x="16" y="19.5" width="106" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vfT-TB-sDC" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="ahl-iR-CEm"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AYI-IK-wfY" firstAttribute="leading" secondItem="cQK-1N-Sw0" secondAttribute="leadingMargin" id="H5o-oH-eAh"/>
+                                                <constraint firstItem="vfT-TB-sDC" firstAttribute="centerY" secondItem="cQK-1N-Sw0" secondAttribute="centerY" id="N1a-EB-taE"/>
+                                                <constraint firstItem="AYI-IK-wfY" firstAttribute="centerY" secondItem="cQK-1N-Sw0" secondAttribute="centerY" id="N3I-n6-APx"/>
+                                                <constraint firstItem="vfT-TB-sDC" firstAttribute="leading" secondItem="AYI-IK-wfY" secondAttribute="trailing" priority="250" constant="50" id="Plp-DO-cxj"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="vfT-TB-sDC" secondAttribute="trailing" id="qy0-3c-yY2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="bdO-hg-TB5">
+                                        <rect key="frame" x="0.0" y="564" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bdO-hg-TB5" id="PDU-U3-s8Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leb-aT-6C7">
+                                                    <rect key="frame" x="16" y="19.5" width="41" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GxU-N8-nBt" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="fXf-ax-pgq"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="GxU-N8-nBt" firstAttribute="centerY" secondItem="PDU-U3-s8Q" secondAttribute="centerY" id="6bO-cn-jLw"/>
+                                                <constraint firstItem="leb-aT-6C7" firstAttribute="leading" secondItem="PDU-U3-s8Q" secondAttribute="leadingMargin" id="7ig-IR-xBE"/>
+                                                <constraint firstItem="GxU-N8-nBt" firstAttribute="leading" secondItem="leb-aT-6C7" secondAttribute="trailing" priority="250" constant="50" id="B1J-QJ-lYa"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="GxU-N8-nBt" secondAttribute="trailing" id="ILc-KK-9Ea"/>
+                                                <constraint firstItem="leb-aT-6C7" firstAttribute="centerY" secondItem="PDU-U3-s8Q" secondAttribute="centerY" id="bG0-ud-GOr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="IMk-Lu-kyQ">
+                                        <rect key="frame" x="0.0" y="624" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IMk-Lu-kyQ" id="Djd-DO-LAB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email(Sugg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP3-dA-zMw">
+                                                    <rect key="frame" x="16" y="19.5" width="93" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Om-uv-P1w" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="gYj-eH-359"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5Om-uv-P1w" firstAttribute="centerY" secondItem="Djd-DO-LAB" secondAttribute="centerY" id="CKp-HU-EEf"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5Om-uv-P1w" secondAttribute="trailing" id="GH4-dm-M8C"/>
+                                                <constraint firstItem="5Om-uv-P1w" firstAttribute="leading" secondItem="DP3-dA-zMw" secondAttribute="trailing" priority="250" constant="50" id="Igv-sS-fmB"/>
+                                                <constraint firstItem="DP3-dA-zMw" firstAttribute="centerY" secondItem="Djd-DO-LAB" secondAttribute="centerY" id="LDV-uy-lct"/>
+                                                <constraint firstItem="DP3-dA-zMw" firstAttribute="leading" secondItem="Djd-DO-LAB" secondAttribute="leadingMargin" id="maK-GF-6zJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Section-3" id="sq2-U3-A1Y">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="6dt-UI-Re1">
+                                        <rect key="frame" x="0.0" y="740" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6dt-UI-Re1" id="MXn-PP-L9s">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXx-3J-aVY">
+                                                    <rect key="frame" x="16" y="19.5" width="108" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d2J-Dp-stA" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="uJM-JF-EPY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="bXx-3J-aVY" firstAttribute="centerY" secondItem="MXn-PP-L9s" secondAttribute="centerY" id="IR3-D5-LEM"/>
+                                                <constraint firstItem="d2J-Dp-stA" firstAttribute="centerY" secondItem="MXn-PP-L9s" secondAttribute="centerY" id="T7t-Ly-DUQ"/>
+                                                <constraint firstItem="bXx-3J-aVY" firstAttribute="leading" secondItem="MXn-PP-L9s" secondAttribute="leadingMargin" id="ZF7-s6-WU2"/>
+                                                <constraint firstItem="d2J-Dp-stA" firstAttribute="trailing" secondItem="MXn-PP-L9s" secondAttribute="trailingMargin" id="f4a-km-jqb"/>
+                                                <constraint firstItem="d2J-Dp-stA" firstAttribute="leading" secondItem="bXx-3J-aVY" secondAttribute="trailing" priority="250" constant="30" id="lwB-Q6-87R"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="8OT-OU-5AV">
+                                        <rect key="frame" x="0.0" y="800" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8OT-OU-5AV" id="l76-Hq-rnw">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achronym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSl-wX-z1u">
+                                                    <rect key="frame" x="8" y="19.5" width="77.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter an achronym, ie: BMI" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WbV-SD-SCt" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="146" y="21" width="221" height="18.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="xQh-zb-GYs"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WbV-SD-SCt" firstAttribute="leading" secondItem="rSl-wX-z1u" secondAttribute="trailing" priority="250" constant="50" id="Y3h-VV-Gh4"/>
+                                                <constraint firstItem="WbV-SD-SCt" firstAttribute="centerY" secondItem="l76-Hq-rnw" secondAttribute="centerY" id="dWG-J4-AAc"/>
+                                                <constraint firstItem="rSl-wX-z1u" firstAttribute="centerY" secondItem="l76-Hq-rnw" secondAttribute="centerY" id="jKL-U6-nSw"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WbV-SD-SCt" secondAttribute="trailing" id="lle-VP-Wj4"/>
+                                                <constraint firstItem="rSl-wX-z1u" firstAttribute="leading" secondItem="l76-Hq-rnw" secondAttribute="leadingMargin" id="uaR-Hw-l5z"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="bdG-NC-iYm">
+                                        <rect key="frame" x="0.0" y="860" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bdG-NC-iYm" id="0M2-tr-Ws4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inline Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnR-Mi-3ba">
+                                                    <rect key="frame" x="8" y="19.5" width="106" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ddk-YC-6Hg" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="146" y="21" width="221" height="18.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="hv3-B9-l8J"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Ddk-YC-6Hg" firstAttribute="centerY" secondItem="0M2-tr-Ws4" secondAttribute="centerY" id="F2l-Xs-RqI"/>
+                                                <constraint firstItem="Ddk-YC-6Hg" firstAttribute="leading" secondItem="lnR-Mi-3ba" secondAttribute="trailing" priority="250" constant="50" id="SzG-CH-vUh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Ddk-YC-6Hg" secondAttribute="trailing" id="dwr-4U-5Kx"/>
+                                                <constraint firstItem="lnR-Mi-3ba" firstAttribute="centerY" secondItem="0M2-tr-Ws4" secondAttribute="centerY" id="ell-Ft-KSi"/>
+                                                <constraint firstItem="lnR-Mi-3ba" firstAttribute="leading" secondItem="0M2-tr-Ws4" secondAttribute="leadingMargin" id="fLU-xp-679"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="Khd-NN-5de">
+                                        <rect key="frame" x="0.0" y="920" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Khd-NN-5de" id="Hih-jj-KHj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXa-An-5rH">
+                                                    <rect key="frame" x="8" y="19.5" width="41" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n7H-ai-8Mn" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="146" y="21" width="221" height="18.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="Woy-aj-97m"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IXa-An-5rH" firstAttribute="centerY" secondItem="Hih-jj-KHj" secondAttribute="centerY" id="4hm-Od-jGG"/>
+                                                <constraint firstItem="IXa-An-5rH" firstAttribute="leading" secondItem="Hih-jj-KHj" secondAttribute="leadingMargin" id="N6t-K5-sRe"/>
+                                                <constraint firstItem="n7H-ai-8Mn" firstAttribute="centerY" secondItem="Hih-jj-KHj" secondAttribute="centerY" id="XkL-bb-gGl"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="n7H-ai-8Mn" secondAttribute="trailing" id="uER-ey-Ycp"/>
+                                                <constraint firstItem="n7H-ai-8Mn" firstAttribute="leading" secondItem="IXa-An-5rH" secondAttribute="trailing" priority="250" constant="50" id="yT2-ve-ERM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTextFieldCell" id="DHo-d0-8Pv">
+                                        <rect key="frame" x="0.0" y="980" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DHo-d0-8Pv" id="MBf-SJ-ReV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email(Sugg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6A-qe-5lK">
+                                                    <rect key="frame" x="8" y="19.5" width="93" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FAU-yu-b4Z" customClass="SearchTextField" customModule="SearchTextField">
+                                                    <rect key="frame" x="146" y="21" width="221" height="18.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" priority="750" constant="221" id="0aF-Yd-KHp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="FAU-yu-b4Z" secondAttribute="trailing" id="PDr-Tw-her"/>
+                                                <constraint firstItem="FAU-yu-b4Z" firstAttribute="leading" secondItem="d6A-qe-5lK" secondAttribute="trailing" priority="250" constant="50" id="RgZ-E0-eqd"/>
+                                                <constraint firstItem="d6A-qe-5lK" firstAttribute="leading" secondItem="MBf-SJ-ReV" secondAttribute="leadingMargin" id="dGe-7U-oiX"/>
+                                                <constraint firstItem="FAU-yu-b4Z" firstAttribute="centerY" secondItem="MBf-SJ-ReV" secondAttribute="centerY" id="gqb-vA-pY9"/>
+                                                <constraint firstItem="d6A-qe-5lK" firstAttribute="centerY" secondItem="MBf-SJ-ReV" secondAttribute="centerY" id="yDF-rN-4dy"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -158,6 +505,7 @@
                         <outlet property="countryInLineTextField" destination="FNs-6t-pNV" id="TMk-pF-SNz"/>
                         <outlet property="countryTextField" destination="PIy-ap-WHN" id="Dtl-Yw-elQ"/>
                         <outlet property="emailInlineTextField" destination="upj-uJ-A0z" id="aIH-6Q-Xb6"/>
+                        <outlet property="emailSuggTextField" destination="iYB-cE-fcE" id="waS-2S-PKW"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1G-HK-Gal" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -170,7 +518,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lGh-8H-ch5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fb9-Vj-3OH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

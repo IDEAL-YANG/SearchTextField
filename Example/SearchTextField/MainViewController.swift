@@ -15,6 +15,7 @@ class MainViewController: UITableViewController {
     @IBOutlet weak var acronymTextField: SearchTextField!
     @IBOutlet weak var countryInLineTextField: SearchTextField!
     @IBOutlet weak var emailInlineTextField: SearchTextField!
+    @IBOutlet weak var emailSuggTextField: SearchTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,9 @@ class MainViewController: UITableViewController {
 
         // 4 - Configure a custom "inline" suggestions search text field
         configureCustomInLineSearchTextField()
+        
+        // 5 - Configure a suggestions search text field
+        configureSuggestionsSearchTextField()
     }
     
     // 1 - Configure a simple search text view
@@ -70,7 +74,7 @@ class MainViewController: UITableViewController {
         acronymTextField.theme.placeholderColor = UIColor.lightGray
         
         // Max number of results - Default: No limit
-        acronymTextField.maxNumberOfResults = 5
+//        acronymTextField.maxNumberOfResults = 5
         
         // Max results list height - Default: No limit
         acronymTextField.maxResultsListHeight = 200
@@ -134,7 +138,21 @@ class MainViewController: UITableViewController {
         emailInlineTextField.startSuggestingInmediately = true
         
         // Set data source
-        emailInlineTextField.filterStrings(["gmail.com", "yahoo.com", "yahoo.com.ar"])
+       emailInlineTextField.filterStrings(["gmail.com","yahoo.com","icloud.com","yahoo.com.ph","ymail.com","hotmail.com","outlook.com"])
+    }
+    
+    // 5 - Configure a suggestions search text view
+    fileprivate func configureSuggestionsSearchTextField() {
+        
+        emailSuggTextField.forceNoFiltering = true
+        // Max results list height - Default: No limit
+        emailSuggTextField.maxResultsListHeight = 200
+        
+        emailSuggTextField.prefixUserInput = true
+        emailSuggTextField.prefixStopJoin = "@"
+        
+        // Set data source
+        emailSuggTextField.filterStrings(["@gmail.com","@yahoo.com","@icloud.com","@yahoo.com.ph","@ymail.com","@hotmail.com","@outlook.com"])
     }
 
     // Hide keyboard when touching the screen
@@ -178,7 +196,7 @@ class MainViewController: UITableViewController {
                             let jsonResults = firstElement["lfs"] as! [[String: AnyObject]]
                             
                             var results = [SearchTextFieldItem]()
-                            
+                            print("Results Count:\(jsonResults.count)")
                             for result in jsonResults {
                                 results.append(SearchTextFieldItem(title: result["lf"] as! String, subtitle: criteria.uppercased(), image: UIImage(named: "acronym_icon")))
                             }
@@ -207,5 +225,9 @@ class MainViewController: UITableViewController {
             
             task.resume()
         }
+    }
+    
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.view.endEditing(true)
     }
 }
