@@ -12,6 +12,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		668D33E290BD010BDE2C534E /* Pods_SearchTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B87306DDEDA94001FAD44 /* Pods_SearchTextField_Example.framework */; };
+		9694AE6F239797BD00D85281 /* LXSearchTextField.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9694AE6E239797BD00D85281 /* LXSearchTextField.podspec */; };
 		A9112AED1DEF12F5003E5B3E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9112AEC1DEF12F5003E5B3E /* MainViewController.swift */; };
 		A96B0E9F1CD15B33008B8D76 /* SearchTextField_Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A96B0E9E1CD15B33008B8D76 /* SearchTextField_Demo.gif */; };
 		A96EAD081CCFB5F800BE01F6 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = A96EAD071CCFB5F800BE01F6 /* countries.json */; };
@@ -20,7 +21,6 @@
 /* Begin PBXFileReference section */
 		0C9ADD7EBA81EC14C57771C6 /* Pods_SearchTextField_Example_SearchTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTextField_Example_SearchTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AA95C1C36826EE01AFC01A /* Pods-SearchTextField_Example-SearchTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTextField_Example-SearchTextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchTextField_Example-SearchTextField_Tests/Pods-SearchTextField_Example-SearchTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		22350C90D960BF9DF69DBFAF /* SearchTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SearchTextField.podspec; path = ../SearchTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34E1007BAC706A603DBB9426 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		47EBEE51DC74808DD1B51042 /* Pods-SearchTextField_Example-SearchTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTextField_Example-SearchTextField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchTextField_Example-SearchTextField_Tests/Pods-SearchTextField_Example-SearchTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SearchTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +31,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		67D7D8393B51CF1BE5C57302 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		75559CC26BFD994BCACECF2E /* Pods-SearchTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchTextField_Example/Pods-SearchTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9694AE6E239797BD00D85281 /* LXSearchTextField.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LXSearchTextField.podspec; path = ../LXSearchTextField.podspec; sourceTree = "<group>"; };
 		A80E7558BF29C211AEA16738 /* Pods-SearchTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchTextField_Example/Pods-SearchTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9112AEC1DEF12F5003E5B3E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A96B0E9E1CD15B33008B8D76 /* SearchTextField_Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SearchTextField_Demo.gif; sourceTree = "<group>"; };
@@ -97,7 +98,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				22350C90D960BF9DF69DBFAF /* SearchTextField.podspec */,
+				9694AE6E239797BD00D85281 /* LXSearchTextField.podspec */,
 				34E1007BAC706A603DBB9426 /* README.md */,
 				67D7D8393B51CF1BE5C57302 /* LICENSE */,
 			);
@@ -189,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9694AE6F239797BD00D85281 /* LXSearchTextField.podspec in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				A96EAD081CCFB5F800BE01F6 /* countries.json in Resources */,
@@ -207,11 +209,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SearchTextField_Example/Pods-SearchTextField_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/LXSearchTextField/LXSearchTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXSearchTextField.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

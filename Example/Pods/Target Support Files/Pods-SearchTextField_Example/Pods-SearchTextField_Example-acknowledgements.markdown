@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SearchTextField
+## LXSearchTextField
 
 Copyright (c) 2016 Alejandro Pasccon <apasccon@gmail.com>
 

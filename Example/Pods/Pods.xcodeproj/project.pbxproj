@@ -7,102 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03736FF0B3A385DFD4C91C3DEFE2B7A3 /* Pods-SearchTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99E1CBF44AEC395A822AA0FDE01A /* Pods-SearchTextField_Example-dummy.m */; };
-		111708E0BE4F4A95E91F4F7DCDE826EE /* SearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AACF4DEC09812771C5382AFDAAC312 /* SearchTextField-dummy.m */; };
-		136EE44B017FA1CA5EB9BA159D812F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		23A11947F71A8C57F1BF8CE2F29E4F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		33158F6AA9B2AC0F8A2E8E609B6CDBBB /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607E2CC21EDC8BDC488F21610EC1473 /* SearchTextField.swift */; };
-		B40EDE23F20C29C946E2482581E7333B /* Pods-SearchTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C34D2E58AFB71C39AAFE59AE4F9034 /* Pods-SearchTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBCF786E6641DBC7D9B95367B7FF77C2 /* SearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 562F76D16B753238001BEDE569D714AA /* SearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		148DE2992CDBA2FEF09A59D51A59FF24 /* Pods-SearchTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99E1CBF44AEC395A822AA0FDE01A /* Pods-SearchTextField_Example-dummy.m */; };
+		17991A8B98960FDDE6EE410C35D283DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1E6892D116BE8845A365FC7A68F11F39 /* Pods-SearchTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C34D2E58AFB71C39AAFE59AE4F9034 /* Pods-SearchTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BFD87159248A27BA29E7915BDD07640 /* LXSearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E768377F16A987DA55FA462578F18985 /* LXSearchTextField-dummy.m */; };
+		B28EBE7C3AC3933152753CE0B66D90A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EADB91BFF8BA1DAD9C120296736A1562 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68C7E4D447C27F058C47046341ED51 /* SearchTextField.swift */; };
+		FD7F481BB03E150A95A7D048D1292838 /* LXSearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 589F97F5F91D45EC0B5FC7FC4515D004 /* LXSearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		58D658FEA6623B41D826302685C1895E /* PBXContainerItemProxy */ = {
+		D55765EA714AB343F3D78D5514020203 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C3F94412D7198255213EB9BC85FFF6E;
-			remoteInfo = SearchTextField;
+			remoteGlobalIDString = 4C204A84A6C572016F316BBF73EF4B5E;
+			remoteInfo = LXSearchTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0967B4B4FA9C7892F4C52AD1BB106323 /* Pods-SearchTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A68640C812B067B09C1B2A5253EDD57 /* LXSearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSearchTextField-prefix.pch"; sourceTree = "<group>"; };
+		1A5A72FD5D911B172FC0FA09F773F7B0 /* LXSearchTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXSearchTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B4D91605B00F663F4A61382E47357CD /* Pods-SearchTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1FB5B412D62D4F75E250A47DBCC0BCC5 /* SearchTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SearchTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SearchTextField.framework; path = SearchTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1EBF503B95B785F87B8B60696BC525 /* SearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchTextField-Info.plist"; sourceTree = "<group>"; };
+		1F2B45065B9802DA39DD9AFC786229E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4E9AED4A8E188219CF710662E7B25D15 /* SearchTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.xcconfig; sourceTree = "<group>"; };
+		3572D13A2897757C20B8F451E8CB47D9 /* LXSearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXSearchTextField.modulemap; sourceTree = "<group>"; };
+		4F3CCBA13DE9404EADAFF6C7B1F74680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F68C7E4D447C27F058C47046341ED51 /* SearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchTextField.swift; path = SearchTextField/Classes/SearchTextField.swift; sourceTree = "<group>"; };
 		512BD250C479A7FAC48190AD38711400 /* Pods-SearchTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SearchTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		562F76D16B753238001BEDE569D714AA /* SearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-umbrella.h"; sourceTree = "<group>"; };
-		7607E2CC21EDC8BDC488F21610EC1473 /* SearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchTextField.swift; path = SearchTextField/Classes/SearchTextField.swift; sourceTree = "<group>"; };
-		77291F44123B269ACF6E415A0FD5507D /* SearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-prefix.pch"; sourceTree = "<group>"; };
+		589F97F5F91D45EC0B5FC7FC4515D004 /* LXSearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSearchTextField-umbrella.h"; sourceTree = "<group>"; };
+		58C6267C455DDBF7078D4E8A78ED241B /* LXSearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXSearchTextField-Info.plist"; sourceTree = "<group>"; };
+		604CFBD7CFF689F3AD5C835E95BC9E0B /* LXSearchTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXSearchTextField.framework; path = LXSearchTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F49889132247A7518F9FEE151953622 /* LXSearchTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSearchTextField.xcconfig; sourceTree = "<group>"; };
 		91529B7BEA7A445A843FC3CC662AAC64 /* Pods-SearchTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3B3F5765C32E45F65ACA5B11C387413 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AD933A6A5A63C6AFB1E5D39AD91342E5 /* Pods-SearchTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SearchTextField_Example.modulemap"; sourceTree = "<group>"; };
 		B5C34D2E58AFB71C39AAFE59AE4F9034 /* Pods-SearchTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SearchTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		C771CC66B7BCA127BBC986854C2A3E3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D0F3DC6C810C017C96CC11729240305E /* Pods-SearchTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SearchTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D5AACF4DEC09812771C5382AFDAAC312 /* SearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchTextField-dummy.m"; sourceTree = "<group>"; };
-		D7447AFAC9E609F6A65D11449CA79A2E /* SearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchTextField.modulemap; sourceTree = "<group>"; };
 		E545D15664DFF7B34DD886C714B86AC7 /* Pods_SearchTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SearchTextField_Example.framework; path = "Pods-SearchTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E768377F16A987DA55FA462578F18985 /* LXSearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXSearchTextField-dummy.m"; sourceTree = "<group>"; };
 		EC4F99E1CBF44AEC395A822AA0FDE01A /* Pods-SearchTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SearchTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		F36A0BB654F5750CDF0C59BF2F7E9731 /* Pods-SearchTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchTextField_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23AB0305B912E348708AEBA224053AE3 /* Frameworks */ = {
+		AD35C644C05501E77C5F8F9024BBB765 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A11947F71A8C57F1BF8CE2F29E4F00 /* Foundation.framework in Frameworks */,
+				17991A8B98960FDDE6EE410C35D283DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62414719C1CE95D9C5082E6F9FBA37C2 /* Frameworks */ = {
+		E2D33042305DA5FC8EAB136FBD4E02C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136EE44B017FA1CA5EB9BA159D812F7A /* Foundation.framework in Frameworks */,
+				B28EBE7C3AC3933152753CE0B66D90A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12CD1C59F2BAD28438B97AB473D5B702 /* Development Pods */ = {
+		2CB053302E1E38A3D54508AE9CF8E7FC /* LXSearchTextField */ = {
 			isa = PBXGroup;
 			children = (
-				2704D344CC45CABC252016FCCB1C5D7A /* SearchTextField */,
+				4F68C7E4D447C27F058C47046341ED51 /* SearchTextField.swift */,
+				BFF62DC0B73D9F3DC78F0C209845CF15 /* Pod */,
+				2E046D020A6D65C50F6FABA30992F5A6 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2704D344CC45CABC252016FCCB1C5D7A /* SearchTextField */ = {
-			isa = PBXGroup;
-			children = (
-				7607E2CC21EDC8BDC488F21610EC1473 /* SearchTextField.swift */,
-				9FAAD861256605992FAFADF91144F6EC /* Pod */,
-				69C07AB411BFB97DD580E266883B162D /* Support Files */,
-			);
-			name = SearchTextField;
+			name = LXSearchTextField;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		69C07AB411BFB97DD580E266883B162D /* Support Files */ = {
+		2E046D020A6D65C50F6FABA30992F5A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7447AFAC9E609F6A65D11449CA79A2E /* SearchTextField.modulemap */,
-				4E9AED4A8E188219CF710662E7B25D15 /* SearchTextField.xcconfig */,
-				D5AACF4DEC09812771C5382AFDAAC312 /* SearchTextField-dummy.m */,
-				2E1EBF503B95B785F87B8B60696BC525 /* SearchTextField-Info.plist */,
-				77291F44123B269ACF6E415A0FD5507D /* SearchTextField-prefix.pch */,
-				562F76D16B753238001BEDE569D714AA /* SearchTextField-umbrella.h */,
+				3572D13A2897757C20B8F451E8CB47D9 /* LXSearchTextField.modulemap */,
+				7F49889132247A7518F9FEE151953622 /* LXSearchTextField.xcconfig */,
+				E768377F16A987DA55FA462578F18985 /* LXSearchTextField-dummy.m */,
+				58C6267C455DDBF7078D4E8A78ED241B /* LXSearchTextField-Info.plist */,
+				0A68640C812B067B09C1B2A5253EDD57 /* LXSearchTextField-prefix.pch */,
+				589F97F5F91D45EC0B5FC7FC4515D004 /* LXSearchTextField-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SearchTextField";
+			path = "Example/Pods/Target Support Files/LXSearchTextField";
+			sourceTree = "<group>";
+		};
+		4B9A6CE7738EA45DEBB3655E43F1CF58 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB053302E1E38A3D54508AE9CF8E7FC /* LXSearchTextField */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9A11A32EE70EF5B1B2608A1A0F3D2555 /* Pods-SearchTextField_Example */ = {
@@ -122,22 +122,22 @@
 			path = "Target Support Files/Pods-SearchTextField_Example";
 			sourceTree = "<group>";
 		};
-		9FAAD861256605992FAFADF91144F6EC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A3B3F5765C32E45F65ACA5B11C387413 /* LICENSE */,
-				C771CC66B7BCA127BBC986854C2A3E3B /* README.md */,
-				1FB5B412D62D4F75E250A47DBCC0BCC5 /* SearchTextField.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		B746D4870C6A12DC609440E53872026D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				9A11A32EE70EF5B1B2608A1A0F3D2555 /* Pods-SearchTextField_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFF62DC0B73D9F3DC78F0C209845CF15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F3CCBA13DE9404EADAFF6C7B1F74680 /* LICENSE */,
+				1A5A72FD5D911B172FC0FA09F773F7B0 /* LXSearchTextField.podspec */,
+				1F2B45065B9802DA39DD9AFC786229E8 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -152,9 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				12CD1C59F2BAD28438B97AB473D5B702 /* Development Pods */,
+				4B9A6CE7738EA45DEBB3655E43F1CF58 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DE52D6E922CA88E9A08B2D22D8009186 /* Products */,
+				F8108446400A61525F26319048724840 /* Products */,
 				B746D4870C6A12DC609440E53872026D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -167,11 +167,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE52D6E922CA88E9A08B2D22D8009186 /* Products */ = {
+		F8108446400A61525F26319048724840 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				604CFBD7CFF689F3AD5C835E95BC9E0B /* LXSearchTextField.framework */,
 				E545D15664DFF7B34DD886C714B86AC7 /* Pods_SearchTextField_Example.framework */,
-				27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,56 +179,56 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46F9092A2EBFE604D79824DE37FBCADD /* Headers */ = {
+		3140B91B18B5F9AA62EFEAB5361759C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40EDE23F20C29C946E2482581E7333B /* Pods-SearchTextField_Example-umbrella.h in Headers */,
+				FD7F481BB03E150A95A7D048D1292838 /* LXSearchTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6E5627924637131DB9F2B006EA4C568 /* Headers */ = {
+		F152B6FEC60A1EFA25DD02A7B478C8E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBCF786E6641DBC7D9B95367B7FF77C2 /* SearchTextField-umbrella.h in Headers */,
+				1E6892D116BE8845A365FC7A68F11F39 /* Pods-SearchTextField_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */ = {
+		4C204A84A6C572016F316BBF73EF4B5E /* LXSearchTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 628B428BFAD1C51B3CF236C8AD850806 /* Build configuration list for PBXNativeTarget "SearchTextField" */;
+			buildConfigurationList = 0ADF38BF07A80DD9C558B9146E61ADA9 /* Build configuration list for PBXNativeTarget "LXSearchTextField" */;
 			buildPhases = (
-				C6E5627924637131DB9F2B006EA4C568 /* Headers */,
-				EAB4CE7C80BBD4A38025825217B4DF24 /* Sources */,
-				62414719C1CE95D9C5082E6F9FBA37C2 /* Frameworks */,
-				10CC901AB5D433206A3F5C4127862CF8 /* Resources */,
+				3140B91B18B5F9AA62EFEAB5361759C5 /* Headers */,
+				E6FD5453409F643F6DB590E983EE3DED /* Sources */,
+				E2D33042305DA5FC8EAB136FBD4E02C7 /* Frameworks */,
+				358C9B8BAC7E54DC776DD54B44C0C8F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SearchTextField;
-			productName = SearchTextField;
-			productReference = 27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField.framework */;
+			name = LXSearchTextField;
+			productName = LXSearchTextField;
+			productReference = 604CFBD7CFF689F3AD5C835E95BC9E0B /* LXSearchTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ECCA90AA7CDCF2F35208F8DC1ED5D0D2 /* Pods-SearchTextField_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E12E99755B4C45C58FE58F182AAA917A /* Build configuration list for PBXNativeTarget "Pods-SearchTextField_Example" */;
+			buildConfigurationList = 58E0C95523C8DAA775672035F07BD28F /* Build configuration list for PBXNativeTarget "Pods-SearchTextField_Example" */;
 			buildPhases = (
-				46F9092A2EBFE604D79824DE37FBCADD /* Headers */,
-				54207D34DD7405523C332F3F6B43D3E3 /* Sources */,
-				23AB0305B912E348708AEBA224053AE3 /* Frameworks */,
-				03292EDA95C612E65F04AEB6C459EA86 /* Resources */,
+				F152B6FEC60A1EFA25DD02A7B478C8E6 /* Headers */,
+				401DAB1607F0EEE3E8837724B486545A /* Sources */,
+				AD35C644C05501E77C5F8F9024BBB765 /* Frameworks */,
+				0AA3F088BE8EE5C16AC1FEEA316E77C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A03950CD4073C8A5118DD5B558741EC /* PBXTargetDependency */,
+				6597C26D7E6B2214D5D739053667347E /* PBXTargetDependency */,
 			);
 			name = "Pods-SearchTextField_Example";
 			productName = "Pods-SearchTextField_Example";
@@ -253,25 +253,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DE52D6E922CA88E9A08B2D22D8009186 /* Products */;
+			productRefGroup = F8108446400A61525F26319048724840 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4C204A84A6C572016F316BBF73EF4B5E /* LXSearchTextField */,
 				ECCA90AA7CDCF2F35208F8DC1ED5D0D2 /* Pods-SearchTextField_Example */,
-				8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03292EDA95C612E65F04AEB6C459EA86 /* Resources */ = {
+		0AA3F088BE8EE5C16AC1FEEA316E77C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		10CC901AB5D433206A3F5C4127862CF8 /* Resources */ = {
+		358C9B8BAC7E54DC776DD54B44C0C8F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,38 +281,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54207D34DD7405523C332F3F6B43D3E3 /* Sources */ = {
+		401DAB1607F0EEE3E8837724B486545A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03736FF0B3A385DFD4C91C3DEFE2B7A3 /* Pods-SearchTextField_Example-dummy.m in Sources */,
+				148DE2992CDBA2FEF09A59D51A59FF24 /* Pods-SearchTextField_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAB4CE7C80BBD4A38025825217B4DF24 /* Sources */ = {
+		E6FD5453409F643F6DB590E983EE3DED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111708E0BE4F4A95E91F4F7DCDE826EE /* SearchTextField-dummy.m in Sources */,
-				33158F6AA9B2AC0F8A2E8E609B6CDBBB /* SearchTextField.swift in Sources */,
+				8BFD87159248A27BA29E7915BDD07640 /* LXSearchTextField-dummy.m in Sources */,
+				EADB91BFF8BA1DAD9C120296736A1562 /* SearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A03950CD4073C8A5118DD5B558741EC /* PBXTargetDependency */ = {
+		6597C26D7E6B2214D5D739053667347E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SearchTextField;
-			target = 8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */;
-			targetProxy = 58D658FEA6623B41D826302685C1895E /* PBXContainerItemProxy */;
+			name = LXSearchTextField;
+			target = 4C204A84A6C572016F316BBF73EF4B5E /* LXSearchTextField */;
+			targetProxy = D55765EA714AB343F3D78D5514020203 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		79DF6DF2B9FCCCF5A558FF4E65735822 /* Release */ = {
+		49EFFA76DBEE326219E64BE08B593882 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91529B7BEA7A445A843FC3CC662AAC64 /* Pods-SearchTextField_Example.release.xcconfig */;
+			baseConfigurationReference = 1B4D91605B00F663F4A61382E47357CD /* Pods-SearchTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -338,15 +338,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		860191E277A7994C21D885FEB8C2DB2B /* Release */ = {
+		7F9026F5E549952C28A293CA6172244D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E9AED4A8E188219CF710662E7B25D15 /* SearchTextField.xcconfig */;
+			baseConfigurationReference = 7F49889132247A7518F9FEE151953622 /* LXSearchTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -357,14 +356,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SearchTextField/SearchTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SearchTextField/SearchTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LXSearchTextField/LXSearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXSearchTextField/LXSearchTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SearchTextField/SearchTextField.modulemap";
-				PRODUCT_MODULE_NAME = SearchTextField;
-				PRODUCT_NAME = SearchTextField;
+				MODULEMAP_FILE = "Target Support Files/LXSearchTextField/LXSearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = LXSearchTextField;
+				PRODUCT_NAME = LXSearchTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -500,9 +499,9 @@
 			};
 			name = Debug;
 		};
-		96756184C6B8809E5B687B05BCD89E0A /* Debug */ = {
+		B95F590A7B77104DB8A870FC35DF7869 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E9AED4A8E188219CF710662E7B25D15 /* SearchTextField.xcconfig */;
+			baseConfigurationReference = 7F49889132247A7518F9FEE151953622 /* LXSearchTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -513,14 +512,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SearchTextField/SearchTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SearchTextField/SearchTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LXSearchTextField/LXSearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXSearchTextField/LXSearchTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SearchTextField/SearchTextField.modulemap";
-				PRODUCT_MODULE_NAME = SearchTextField;
-				PRODUCT_NAME = SearchTextField;
+				MODULEMAP_FILE = "Target Support Files/LXSearchTextField/LXSearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = LXSearchTextField;
+				PRODUCT_NAME = LXSearchTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -531,9 +530,9 @@
 			};
 			name = Debug;
 		};
-		F2B4989700809B320F251EF27B9E59E9 /* Debug */ = {
+		F1CB5E21BD19FA450C99D4BD43342A89 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B4D91605B00F663F4A61382E47357CD /* Pods-SearchTextField_Example.debug.xcconfig */;
+			baseConfigurationReference = 91529B7BEA7A445A843FC3CC662AAC64 /* Pods-SearchTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -559,14 +558,24 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0ADF38BF07A80DD9C558B9146E61ADA9 /* Build configuration list for PBXNativeTarget "LXSearchTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95F590A7B77104DB8A870FC35DF7869 /* Debug */,
+				7F9026F5E549952C28A293CA6172244D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -576,20 +585,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		628B428BFAD1C51B3CF236C8AD850806 /* Build configuration list for PBXNativeTarget "SearchTextField" */ = {
+		58E0C95523C8DAA775672035F07BD28F /* Build configuration list for PBXNativeTarget "Pods-SearchTextField_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96756184C6B8809E5B687B05BCD89E0A /* Debug */,
-				860191E277A7994C21D885FEB8C2DB2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E12E99755B4C45C58FE58F182AAA917A /* Build configuration list for PBXNativeTarget "Pods-SearchTextField_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2B4989700809B320F251EF27B9E59E9 /* Debug */,
-				79DF6DF2B9FCCCF5A558FF4E65735822 /* Release */,
+				49EFFA76DBEE326219E64BE08B593882 /* Debug */,
+				F1CB5E21BD19FA450C99D4BD43342A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

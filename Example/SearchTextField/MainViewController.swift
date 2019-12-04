@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SearchTextField
+import LXSearchTextField
 
 class MainViewController: UITableViewController {
 
