@@ -63,9 +63,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter an achronym, ie: BMI" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l1N-ud-tul" customClass="SearchTextField" customModule="LXSearchTextField">
-                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                    <rect key="frame" x="138" y="17.5" width="221" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="jRe-nS-LSo"/>
+                                                        <constraint firstAttribute="height" constant="25" id="vwV-ZI-Bbe"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -190,8 +191,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-DJ-J0e" customClass="SearchTextField" customModule="LXSearchTextField">
-                                                    <rect key="frame" x="138" y="21.5" width="221" height="17"/>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a country name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-DJ-J0e" customClass="SearchTextField" customModule="LXSearchTextField">
+                                                    <rect key="frame" x="138" y="13" width="221" height="34"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" priority="750" constant="221" id="RY4-Zm-Qih"/>
                                                     </constraints>

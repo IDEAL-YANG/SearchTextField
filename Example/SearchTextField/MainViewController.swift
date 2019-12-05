@@ -70,8 +70,17 @@ class MainViewController: UITableViewController {
         acronymTextField.theme.bgColor = UIColor.lightGray.withAlphaComponent(0.2)
         acronymTextField.theme.borderColor = UIColor.lightGray.withAlphaComponent(0.5)
         acronymTextField.theme.separatorColor = UIColor.lightGray.withAlphaComponent(0.5)
+        acronymTextField.theme.separatorInset = .init(top: 0, left: 15, bottom: 0, right: 0)
         acronymTextField.theme.cellHeight = 50
         acronymTextField.theme.placeholderColor = UIColor.lightGray
+        
+        acronymTextField.layer.borderColor = UIColor.gray.cgColor
+        acronymTextField.layer.borderWidth = 0.5
+        
+        acronymTextField.tableXOffset = 0
+        
+        acronymTextField.leftViewMode = .always
+        acronymTextField.leftView = UIView(frame: .init(origin: .zero, size: .init(width: 15, height: 15)))
         
         // Max number of results - Default: No limit
 //        acronymTextField.maxNumberOfResults = 5
@@ -198,7 +207,7 @@ class MainViewController: UITableViewController {
                             var results = [SearchTextFieldItem]()
                             print("Results Count:\(jsonResults.count)")
                             for result in jsonResults {
-                                results.append(SearchTextFieldItem(title: result["lf"] as! String, subtitle: criteria.uppercased(), image: UIImage(named: "acronym_icon")))
+                                results.append(SearchTextFieldItem(title: result["lf"] as! String, subtitle: nil, image: UIImage(named: "acronym_icon")))
                             }
                             
                             DispatchQueue.main.async {
