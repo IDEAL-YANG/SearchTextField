@@ -133,11 +133,17 @@ open class SearchTextField: UITextField {
     open var tableCornerRadius: CGFloat = 2.0
     open var tableBottomMargin: CGFloat = 10.0
     
-    /// If prefixUserInput is true, user input as suggestions title prefix
+    /// If prefixUserInput is true, user input as suggestions title prefix. Default is false
     open var prefixUserInput = false
     
     /// If prefixStopJoin is set, user input contain this string will stop as suggestions title prefix
     open var prefixStopJoin:String?
+    
+    /// If useFirstResultWhenEndEditingOnExit is false, use first result if filteredResults no empty. Default is false
+    open var useFirstResultWhenEndEditingOnExit = true
+    
+    /// Show the suggestions list without filter when the text field is not be focused
+    open var endEditingVisible = false
     
     ////////////////////////////////////////////////////////////////////////
     // Private implementation
@@ -404,12 +410,18 @@ open class SearchTextField: UITextField {
     }
     
     @objc open func textFieldDidEndEditing() {
-        clearResults()
-        tableView?.reloadData()
-        placeholderLabel?.attributedText = nil
+        useFirstResultIfPossible()
+        if endEditingVisible == false {
+            hiddenTableView()
+        }
     }
     
-    @objc open func textFieldDidEndEditingOnExit() {
+    @objc open func textFieldDidEndEditingOnExit() {}
+    
+    fileprivate func useFirstResultIfPossible() {
+        guard useFirstResultWhenEndEditingOnExit else {
+            return
+        }
         if let firstElement = filteredResults.first {
             if let itemSelectionHandler = self.itemSelectionHandler {
                 itemSelectionHandler(filteredResults, 0)
@@ -428,6 +440,13 @@ open class SearchTextField: UITextField {
                 }
             }
         }
+        hiddenTableView()
+    }
+    
+    fileprivate func hiddenTableView() {
+        clearResults()
+        tableView?.reloadData()
+        placeholderLabel?.attributedText = nil
     }
     
     open func hideResultsList() {
