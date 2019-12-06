@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "LXSearchTextField"
-  s.version          = "1.3.1"
-  s.summary          = "SearchTextField extends UITextField allowing you to add the autocomplete feature in a really easy way, add suggestions list follow user input"
+  s.version          = "1.3.2"
+  s.summary          = "SearchTextField extends UITextField allowing you to add the autocomplete feature in a really easy way, add suggestions list follow user input, handle end editing."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
 SearchTextField supports two different modes: the classic dropdown list (by default) and the inline mode perfect for autocomplete email domains as an example.
     
     add new feature for no filter display all list item.
+    
+    feature:add handle end editing optional.
                        DESC
 
   s.homepage         = "https://github.com/IDEAL-YANG/SearchTextField"

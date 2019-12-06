@@ -1,5 +1,5 @@
 PODS:
-  - LXSearchTextField (1.3.1)
+  - LXSearchTextField (1.3.2)
 
 DEPENDENCIES:
   - LXSearchTextField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXSearchTextField: 4115597e0971ce50e75fc9c0256fdc6e7cca0fcf
+  LXSearchTextField: 88efe9c06c3bffd6108353512c7fa36f843f0a33
 
 PODFILE CHECKSUM: 4a5eaa3503c9b4566e62f98761e71f6e7f6242f7
 
